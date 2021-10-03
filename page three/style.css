@@ -1,0 +1,73 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Ubuntu", sans-serif;
+}
+
+body#main {
+  background-color: #002332;
+}
+
+nav {
+  z-index: 10000000;
+  background-color: #457b9d;
+  top: 0;
+}
+nav ul li a {
+  font-family: "Raleway", sans-serif !important;
+}
+
+ul li a.different{
+  font-weight: bold;
+}
+
+ul li a.dropdown-item:hover{
+  font-weight: bold;
+}
+
+
+p.my-5 {
+  font-size: 80px;
+}
+p.diff {
+  font-size: 55px;
+}
+p {
+  font-size: 25px;
+  font-weight: 500px;
+  letter-spacing: 0.03em;
+  text-indent: 10px;
+}
+.section-4 {
+  background-color: #f55536;
+}
+.imgs-div {
+  padding: 50px 0;
+  text-align: center;
+}
+
+footer {
+  background-image: url(images/nasa-Q1p7bh3SHj8-unsplash1.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.footer-main {
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: bold;
+}
+.footer-details {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.footer-details:hover {
+  font-weight: bold;
+  color: white;
+}
+
+footer li {
+  padding-bottom: 25px;
+}

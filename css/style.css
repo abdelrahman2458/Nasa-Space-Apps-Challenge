@@ -1,0 +1,131 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Ubuntu", sans-serif;
+}
+/*font-family: 'Raleway', sans-serif; */
+nav {
+  z-index: 10000000;
+  background-color: #457b9d;
+  position: fixed;
+}
+nav ul li a {
+    font-family: "Raleway", sans-serif !important;
+}
+
+section#hero-section {
+  background-color: #219ebc;
+}
+section#hero-section video {
+  height: 100vh;
+  width: 100vh;
+
+  object-fit: cover;
+}
+section#hero-section div.important-words {
+  right: 0;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 2;
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+#hero-section div.important-words h1,
+#hero-section div.important-words p,
+#hero-section div.important-words button a,h1 {
+  font-family: "Raleway", sans-serif !important;
+}
+#hero-section div.important-words button:hover{
+  background-color: #f55536;
+  transform: .5s;
+}
+
+section.bgCard {
+  background-color: #219ebc;
+  background-repeat:no-repeat;
+  background-size:contain;
+  background-position-y: bottom;
+}
+.cards {
+  background-color: #c4c4c4;
+  border-radius: 20px;
+}
+
+.card-img {
+  border-radius: 20px;
+}
+
+.card-title {
+  font-size: 30px;
+}
+
+
+ul li a.different{
+  font-weight: bold;
+}
+
+ul li a.dropdown-item:hover{
+  font-weight: bold;
+}
+
+.container{
+  padding: 40px;
+  }
+  .info{
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-indent: 10px;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 27px;
+  color: #F1FAEE;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  }
+
+  .reed-btn:hover{
+  background-color: #F55536;
+  
+  color:#F1FAEE;
+  transition: 0.5s;
+  }
+
+  .section-4 {
+    background-color: #f55536;
+  }
+  .imgs-div {
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  footer {
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .footer-main {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .footer-details {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  .footer-details:hover {
+    font-weight: bold;
+    color: white;
+  }
+  
+  footer li {
+    padding-bottom: 25px;
+  }
